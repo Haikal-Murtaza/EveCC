@@ -20,3 +20,23 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home');
 });
+
+Route::get('/recipe', function () {
+    return view('recipe_page');
+});
+
+Route::get('/recipe/id', function () {
+    return view('recipe');
+});
+
+Route::get('/idea', function () {
+    return view('tambah_recipe');
+});
+
+Route::get('/profil', function () {
+    return view('profil');
+});
+
+Route::get('/admin', function () {
+    return view('admin');
+});
