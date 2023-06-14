@@ -1,0 +1,49 @@
+/* Stack Gambar */
+.image-stack {
+    position: relative;
+    width: 300px;
+    /* Sesuaikan lebar dengan kebutuhan Anda */
+    height: 480px;
+    /* Sesuaikan tinggi dengan kebutuhan Anda */
+}
+
+.image-stack img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image-stack img:nth-child(1){
+    top: 70px;
+    left: 184px;
+}
+
+.image-stack img:nth-child(2) {
+    top: 180px;
+    left: 500px;
+    z-index: 1;
+}
+
+.image-stack img:nth-child(3) {
+    top: 5px;
+    left: 600px;
+    z-index: 2;
+}
+
+.desc {
+    position: relative;
+    width: 600px;
+    left: 400px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* footer */
+.row-email {
+    width: 10%
+}
+
+.form-control {
+    width: 100%;
+    /* Mengatur lebar input field */
+}

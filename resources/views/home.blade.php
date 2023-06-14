@@ -33,7 +33,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img width="1700px" height="500px" src="{{ asset('asset/r.jpeg') }}" alt="Nama Gambar">
+            <img width="1700px" height="500px" src="{{ asset('asset/foto2.jpg') }}" alt="Nama Gambar">
 
             <div class="container">
                 <div class="carousel-caption text-start mb-5">
@@ -63,11 +63,11 @@
         </h4>
     </div>
     <div class="image-stack mt-3">
-        <img width="600px" height="320px" src="{{ asset('asset/r.jpeg') }}" alt="Nama Gambar">
+        <img width="600px" height="320px" src="{{ asset('asset/foto2.jpg') }}" alt="Nama Gambar">
         <img width="600px" height="320px" src="{{ asset('asset/gado_gado.jpg') }}" alt="Nama Gambar">
         <img width="600px" height="320px" src="{{ asset('asset/foto1.jpg') }}" alt="Nama Gambar">
     </div>
-    <p class="mt-5">
+    <p class="desc mt-5">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt aliquam ipsum eget consectetur. Sed
         ac elit et mi condimentum hendrerit. Duis nunc augue, rhoncus ornare ornare vitae, tempor non lectus.
         Aliquam urna velit, vestibulum quis tincidunt at, pharetra sit amet turpis. Aenean venenatis, nulla et

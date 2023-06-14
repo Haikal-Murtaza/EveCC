@@ -25,7 +25,7 @@
 <div class="container text-center my-5 ">
     <div class="card mb-3" style="display: flex;">
         <div class="row">
-            <img src="{{ asset('asset/r.jpeg') }}" class="card-img-left" alt="..." style="width: 30%; height: auto;">
+            <img src="{{ asset('asset/foto1.jpg') }}" class="card-img-left" alt="..." style="width: 30%; height: auto;">
             <div class="card-body" style="flex: 1;">
                 <div class="text-start">
                     <div>
@@ -40,7 +40,7 @@
     
     <div class="card mb-3" style="display: flex;">
         <div class="row">
-            <img src="{{ asset('asset/r.jpeg') }}" class="card-img-left" alt="..." style="width: 30%; height: auto;">
+            <img src="{{ asset('asset/foto2.jpg') }}" class="card-img-left" alt="..." style="width: 30%; height: auto;">
             <div class="card-body" style="flex: 1;">
                 <div class="text-start">
                     <div>

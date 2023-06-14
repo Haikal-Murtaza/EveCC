@@ -6,46 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/home.css') }}">
     <title>Halaman Home</title>
-
-    <style>
-        .image-stack {
-            position: relative;
-            width: 300px;
-            /* Sesuaikan lebar dengan kebutuhan Anda */
-            height: 300px;
-            /* Sesuaikan tinggi dengan kebutuhan Anda */
-        }
-
-        .image-stack img {
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-
-        .image-stack img:nth-child(2) {
-            top: 20px;
-            left: 20px;
-            z-index: 1;
-        }
-
-        .image-stack img:nth-child(3) {
-            top: 40px;
-            left: 40px;
-            z-index: 2;
-        }
-        
-        /* footer */
-        .row-email {
-            width: 10%
-        }
-        
-        .form-control {
-            width: 100%;
-            /* Mengatur lebar input field */
-        }
-    </style>
 </head>
 
 <body>
