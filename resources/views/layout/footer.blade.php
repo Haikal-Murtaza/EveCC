@@ -31,9 +31,6 @@
             </div>
         </form>
 
-
-
-
     </div>
 
     <div class="col-fluid d-flex bg-secondary justify-content-center">

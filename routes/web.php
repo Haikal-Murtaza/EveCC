@@ -40,3 +40,14 @@ Route::get('/profil', function () {
 Route::get('/admin', function () {
     return view('admin');
 });
+
+Route::get('/login', function () {
+    return view('proses.login');
+});
+
+Route::get('/register', function () {
+    return view('proses.register');
+});
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
