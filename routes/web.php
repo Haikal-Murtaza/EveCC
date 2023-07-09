@@ -13,22 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-
-Route::get('/home', function () {
-    return view('home');
-});
-
-Route::get('/recipe', function () {
-    return view('recipe_page');
-});
-
-Route::get('/recipe/id', function () {
-    return view('recipe');
-});
-
 Route::get('/idea', function () {
     return view('tambah_recipe');
 });
@@ -41,13 +25,21 @@ Route::get('/admin', function () {
     return view('admin');
 });
 
-Route::get('/login', function () {
+Route::get('/logint', function () {
     return view('proses.login');
 });
 
-Route::get('/register', function () {
+Route::get('/registert', function () {
     return view('proses.register');
 });
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/recipe', [App\Http\Controllers\RecipeController::class, 'recipe'])->name('recipe');
+
+Route::get('recipe/1', [App\Http\Controllers\RecipeController::class, 'recipeid'])->name('recipe');
+
+Route::get('/profil', [\App\Http\Controllers\ProfilController::class, 'profil'])->name('profil saya');
