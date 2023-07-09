@@ -63,23 +63,11 @@
                                 </li>
                             @endif
                         @else
-                            <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="profil" role="button"
-                                    data-bs-toggle="dropdown-menu" aria-haspopup="true" aria-expanded="false" v-pre>
+                            <li class="nav-item">
+                                <a class="nav-link" href="bio" role="button" aria-haspopup="true"
+                                    aria-expanded="false">
                                     {{ Auth::user()->name }}
                                 </a>
-
-                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
-                                        onclick="event.preventDefault();
-                                                    document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
-                                    </a>
-
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                        @csrf
-                                    </form>
-                                </div>
                             </li>
                         @endguest
                     </ul>
@@ -107,7 +95,7 @@
                     <div class="form-group">
                         <textarea id="message" class="form-control form-input" placeholder="Your Message"></textarea>
                     </div>
-                    
+
                 </div>
                 <div class="form-row">
                     <div class="form-group">

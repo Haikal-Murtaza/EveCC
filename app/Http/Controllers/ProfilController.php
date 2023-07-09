@@ -21,8 +21,28 @@ class ProfilController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function profil()
+    public function bio()
     {
-        return view('profil');
+        return view('bio');
+    }
+
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function fav()
+    {
+        return view('fav');
+    }
+
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function setting()
+    {
+        return view('setting');
     }
 }

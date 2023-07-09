@@ -36,3 +36,9 @@
 .card {
     margin: 20px;
 }
+
+.line {
+    border: none;
+    border-top: 2px solid black;
+    width: 100%;
+}
